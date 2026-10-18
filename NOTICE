@@ -1,0 +1,6 @@
+An LLM-Driven Robot Pet (Microduck)
+Copyright 2026 Chen-Ye Hong
+
+This project builds on microduck_rl by Pollen Robotics (https://github.com/pollen-robotics/microduck_rl),
+licensed under the Apache License 2.0. The pet gait (gait/) extends its velocity task, and the policies in
+models/ were trained in its environment.

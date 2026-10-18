@@ -1,0 +1,22 @@
+# Planner only (no simulator): python -m pet.planner.cli
+pydantic==2.12.5
+openai==3.23.0
+httpx==0.28.1
+
+# Simulator, behaviors, navigation (also needs the upstream microduck_rl checkout, see README)
+mujoco==3.10.0
+onnxruntime==1.24.4
+numpy==2.4.1
+pillow==12.2.0
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+matplotlib==3.10.9
+
+# Perception: Grounding DINO on a CUDA GPU (transformers 5.17 is the version tested here)
+torch==2.9.1
+transformers==5.17.0
+
+# Gait training / evaluation (gait/): mjlab and mjlab_microduck come with the microduck_rl environment
+
+# foundations/ (PPO from scratch on CartPole)
+gymnasium==1.3.0
